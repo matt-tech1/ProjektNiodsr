@@ -11,7 +11,7 @@ class CameraNode(Node):
     def __init__(self):
         super().__init__('camera_node')
 
-        self.declare_parameter('square_size', 200)
+        self.declare_parameter('square_size', 50)
         self.square_size = self.get_parameter('square_size').value
 
         self.publisher_ = self.create_publisher(Point, '/point', 10)
