@@ -1,12 +1,12 @@
 
 Przygotowane przez Wojciecha Gocałka 151233, oraz Mateusza Matuszewskiego 151006
 
-####Cel paczki:
+#### Cel paczki:
 
 Paczka ma za zadanie dostarczać interfejs do sterowania robotem, jak i zapewniać możliwość sterowania w dwóch kierunkach: do przodu i do tyłu.
 Sterowanie odbywa się za pomocą okna podzielonego na dwie części. Kliknięcie górnej części okna przemieszcza robota do przodu przez 2 sekundy, kliknięcie dolnej części okna przemieszcza robota do tyłu przez dwie sekundy.
 
-####Instalacja paczki:
+#### Instalacja paczki:
 
 By zainstalować paczkę, należy upewnić się, że w głównym katalogu, w każdym terminalu jest zainstalowane środowisko ROS poleceniem:
 - `source install/setup.bash`
