@@ -8,7 +8,7 @@ Instalacja paczki:
 
 By zainstalować paczkę, należy upewnić się, że:
 -W głównym katalogu, w każdym terminalu jest zainstalowane środowisko ROS poleceniem:
-~source install/setup.bash
+~source install/setup.bash~
 -W terminalu 1 jest wskazana nazwa robota ('export TURTLEBOT3_MODEL=burger') jak i wskazanie modelu robota (export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
 prefix turtlebot3_gazebo \
 `/share/turtlebot3_gazebo/models/) 
