@@ -9,7 +9,7 @@ Sterowanie odbywa się za pomocą okna podzielonego na dwie części. Kliknięci
 Instalacja paczki:
 
 By zainstalować paczkę, należy upewnić się, że w głównym katalogu, w każdym terminalu jest zainstalowane środowisko ROS poleceniem:
-`source install/setup.bash`
+- `source install/setup.bash`
 
 Projekt jest realizowany w czterech terminalach
 
@@ -24,26 +24,26 @@ Ustawienie ścieżki modeli Gazebo:
 
 Wybór modelu robota:
 
--`export TURTLEBOT3_MODEL=burger`
+- `export TURTLEBOT3_MODEL=burger`
 
 Uruchamianie środowiska:
 
--`ros2 launch turtlebot3_gazebo empty_world.launch.py`
+- `ros2 launch turtlebot3_gazebo empty_world.launch.py`
 
 Terminal 2:
 
  Uruchomienie Rviz:
 
--`ros2 launch turtlebot3_bringup rviz2.launch.py`
+- `ros2 launch turtlebot3_bringup rviz2.launch.py`
 
 Terminal 3:
 
 Uruchomienie interfejsu graficznego:
 
--`ros2 run camera_subscriber camera_node`
+- `ros2 run camera_subscriber camera_node`
 
 Terminal 4:
 
 Uruchomienie możliwości sterowania:
 
--`ros2 run camera_subscriber robot_controller`
+- `ros2 run camera_subscriber robot_controller`
