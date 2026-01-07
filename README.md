@@ -26,6 +26,7 @@ Terminal 2:
 
 - Uruchomienie Rviz:
 `ros2 launch turtlebot3_bringup rviz2.launch.py`
+
 Terminal 3:
 
  - Uruchomienie interfejsu graficznego:
