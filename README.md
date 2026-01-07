@@ -13,7 +13,7 @@ By zainstalować paczkę, należy upewnić się, że w głównym katalogu, w ka�
 
 Projekt jest realizowany w czterech terminalach
 
-Terminal 1:
+### Terminal 1:
 Instalacja pakietów TurtleBot3:
 
 - `sudo apt install ros-humble-turtlebot3*`
@@ -30,19 +30,19 @@ Uruchamianie środowiska:
 
 - `ros2 launch turtlebot3_gazebo empty_world.launch.py`
 
-Terminal 2:
+### Terminal 2:
 
  Uruchomienie Rviz:
 
 - `ros2 launch turtlebot3_bringup rviz2.launch.py`
 
-Terminal 3:
+### Terminal 3:
 
 Uruchomienie interfejsu graficznego:
 
 - `ros2 run camera_subscriber camera_node`
 
-Terminal 4:
+### Terminal 4:
 
 Uruchomienie możliwości sterowania:
 
