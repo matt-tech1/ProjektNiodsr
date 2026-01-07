@@ -16,11 +16,11 @@ Projekt jest realizowany w czterech terminalach
 Terminal 1:
 Instalacja pakietów TurtleBot3:
 
--`sudo apt install ros-humble-turtlebot3*`
+- `sudo apt install ros-humble-turtlebot3*`
 
 Ustawienie ścieżki modeli Gazebo:
 
--`export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo/models/`
+- `export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo/models/`
 
 Wybór modelu robota:
 
