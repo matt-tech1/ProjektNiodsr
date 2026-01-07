@@ -12,6 +12,7 @@ By zainstalować paczkę, należy upewnić się, że:
 -W głównym katalogu, w każdym terminalu jest zainstalowane środowisko ROS poleceniem:
 `source install/setup.bash`
 Projekt jest realizowany w czterech terminalach
+
 Terminal 1:
 - Instalacja pakietów TurtleBot3:
   - `sudo apt install ros-humble-turtlebot3*`
