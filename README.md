@@ -14,33 +14,35 @@ By zainstalować paczkę, należy upewnić się, że w głównym katalogu, w ka�
 Projekt jest realizowany w czterech terminalach
 
 Terminal 1:
-- Instalacja pakietów TurtleBot3:
+Instalacja pakietów TurtleBot3:
 
-   `sudo apt install ros-humble-turtlebot3*`
-- Ustawienie ścieżki modeli Gazebo:
+  - `sudo apt install ros-humble-turtlebot3*`
+Ustawienie ścieżki modeli Gazebo:
 
-   `export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo/models/`
-- Wybór modelu robota:
+-`export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(ros2 pkg prefix turtlebot3_gazebo)/share/turtlebot3_gazebo/models/`
 
-   `export TURTLEBOT3_MODEL=burger`
-- Uruchamianie środowiska:
+Wybór modelu robota:
 
-`ros2 launch turtlebot3_gazebo empty_world.launch.py`
+- `export TURTLEBOT3_MODEL=burger`
+
+Uruchamianie środowiska:
+
+- `ros2 launch turtlebot3_gazebo empty_world.launch.py`
 
 Terminal 2:
 
-- Uruchomienie Rviz:
+ Uruchomienie Rviz:
 
-`ros2 launch turtlebot3_bringup rviz2.launch.py`
+-`ros2 launch turtlebot3_bringup rviz2.launch.py`
 
 Terminal 3:
 
- - Uruchomienie interfejsu graficznego:
+Uruchomienie interfejsu graficznego:
 
-`ros2 run camera_subscriber camera_node`
+-`ros2 run camera_subscriber camera_node`
 
 Terminal 4:
 
-- Uruchomienie możliwości sterowania:
+Uruchomienie możliwości sterowania:
 
-`ros2 run camera_subscriber robot_controller`
+-`ros2 run camera_subscriber robot_controller`
