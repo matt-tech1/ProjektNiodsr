@@ -20,13 +20,17 @@ Terminal 1:
 - Wybór modelu robota:
   - `export TURTLEBOT3_MODEL=burger`
 - Uruchamianie środowiska:
-ros2 launch turtlebot3_gazebo empty_world.launch.py
+`ros2 launch turtlebot3_gazebo empty_world.launch.py`
+
 Terminal 2:
+
 - Uruchomienie Rviz:
 `ros2 launch turtlebot3_bringup rviz2.launch.py`
 Terminal 3:
+
  - Uruchomienie interfejsu graficznego:
 `ros2 run camera_subscriber camera_node`
+
 Terminal 4:
 - Uruchomienie możliwości sterowania:
 `ros2 run camera_subscriber robot_controller`
